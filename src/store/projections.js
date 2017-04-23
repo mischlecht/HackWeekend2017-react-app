@@ -1,4 +1,5 @@
 /* eslint-disable import/default */
+/*
 import * as Immutable from 'immutable';
 import * as MoviesModels from '../movies/constants/movies.models';
 
@@ -16,3 +17,4 @@ export function projectBasicMovieResultsToObject(movies){
 
     return projectedMoviesResults;
 }
+*/

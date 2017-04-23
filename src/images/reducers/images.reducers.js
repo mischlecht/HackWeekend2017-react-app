@@ -3,6 +3,8 @@
 export function voteForImage (previous, action) {
     const { image } = action;
 
+    console.log(image.toJS());
+
     // TODO hook up this reducer to API to log vote, then get new images
 
     let image1 = previous.getIn(['imagesState', 'image1']),
