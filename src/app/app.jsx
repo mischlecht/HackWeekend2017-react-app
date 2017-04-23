@@ -11,8 +11,6 @@ export default class App extends React.Component {
             <IndexLink to="/">Home</IndexLink>
             {' | '}
             <Link to="/images">Images</Link>
-            {' | '}
-            <Link to="/about">About</Link>
             <br/>
             {this.props.children}
         </div>;
